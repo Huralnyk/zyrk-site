@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zyrk — what to watch tonight</title>
+<meta name="description" content="Shake your phone and the ball from Interstate 60 pulls one film out of the thousand best. No accounts, no ads, never the same film twice.">
+<link rel="canonical" href="https://zyrk.dev/en/">
+<link rel="alternate" hreflang="uk" href="https://zyrk.dev/">
+<link rel="alternate" hreflang="en" href="https://zyrk.dev/en/">
+<link rel="alternate" hreflang="x-default" href="https://zyrk.dev/">
+<link rel="icon" href="/assets/icon.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta property="og:title" content="Zyrk — what to watch tonight">
+<meta property="og:description" content="Shake your phone and the ball pulls one film out of the thousand best.">
+<meta property="og:image" content="https://zyrk.dev/assets/icon.png">
+<meta property="og:url" content="https://zyrk.dev/en/">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0b0d12">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<div class="wrap">
+    <header class="top">
+        <a class="wordmark" href="/en/"><img src="/assets/icon.png" alt="" width="30" height="30">Zyrk</a>
+        <nav class="langs">
+            <a href="/">Укр</a>
+            <a href="/en/" aria-current="page">Eng</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <svg class="ball" viewBox="0 0 400 400" role="img" aria-label="A black billiard ball with a triangle reading Zyrk">
+                <defs>
+                    <radialGradient id="shell" cx="34%" cy="26%" r="80%">
+                        <stop offset="0" stop-color="#41465440"></stop>
+                        <stop offset="0.42" stop-color="#171a21"></stop>
+                        <stop offset="1" stop-color="#05060a"></stop>
+                    </radialGradient>
+                    <radialGradient id="window" cx="50%" cy="40%" r="70%">
+                        <stop offset="0" stop-color="#101a44"></stop>
+                        <stop offset="1" stop-color="#04050f"></stop>
+                    </radialGradient>
+                    <linearGradient id="die" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0" stop-color="#5a7bff"></stop>
+                        <stop offset="1" stop-color="#1a2bad"></stop>
+                    </linearGradient>
+                    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+                        <feGaussianBlur stdDeviation="14"></feGaussianBlur>
+                    </filter>
+                    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+                        <feGaussianBlur stdDeviation="7" result="b"></feGaussianBlur>
+                        <feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+                    </filter>
+                </defs>
+                <circle cx="200" cy="200" r="190" fill="#0a0b10"></circle>
+                <circle cx="200" cy="200" r="190" fill="url(#shell)"></circle>
+                <ellipse cx="140" cy="116" rx="54" ry="34" transform="rotate(-24 140 116)" fill="#ffffff" opacity="0.16" filter="url(#soft)"></ellipse>
+                <ellipse cx="252" cy="318" rx="78" ry="30" transform="rotate(-18 252 318)" fill="#ffc761" opacity="0.06" filter="url(#soft)"></ellipse>
+                <circle cx="200" cy="210" r="98" fill="url(#window)"></circle>
+                <circle cx="200" cy="210" r="98" fill="none" stroke="#000" stroke-opacity="0.75" stroke-width="5"></circle>
+                <g filter="url(#glow)">
+                    <path d="M200 132 L272 257 L128 257 Z" fill="url(#die)" opacity="0.95"></path>
+                </g>
+                <text x="200" y="230" text-anchor="middle" fill="#e6ecff"
+                      font-family="Oswald, Helvetica Neue, Arial, sans-serif" font-size="34" font-weight="600"
+                      letter-spacing="3">ZYRK</text>
+                <circle cx="200" cy="200" r="190" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="2"></circle>
+            </svg>
+
+            <div>
+                <h1>What to watch tonight?</h1>
+                <p>The ball from Interstate 60, in your pocket. Shake the phone and it hands you one film out of the IMDb Top 1000. One. No endless scrolling.</p>
+                <span class="badge">Coming soon to the App Store</span>
+            </div>
+        </section>
+
+        <ul class="cards">
+            <li>
+                <h2>Shake and watch</h2>
+                <p>The phone sloshes like a real liquid-filled ball, the triangle floats up — and there is a title on it. Not tonight? Shake again.</p>
+            </li>
+            <li>
+                <h2>Never twice</h2>
+                <p>A film the ball has already shown will not come up again. Your Good and Nope marks tell it which way to lean next time.</p>
+            </li>
+            <li>
+                <h2>Where to watch it</h2>
+                <p>Every film page lists the services that carry it in your country — subscription, rent or buy. Data from TMDB, the way JustWatch does it.</p>
+            </li>
+            <li>
+                <h2>Nothing extra</h2>
+                <p>Free, no ads, no subscriptions, no sign-up. Your history stays on the device.</p>
+            </li>
+        </ul>
+    </main>
+</div>
+
+<footer class="foot">
+    <div class="wrap">
+        <nav>
+            <a href="/en/privacy/">Privacy Policy</a>
+            <a href="mailto:hello@zyrk.dev">hello@zyrk.dev</a>
+        </nav>
+        <p><img src="/assets/tmdb.svg" alt="TMDB">This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+        <p>Film data from the IMDb Top 1000 and TMDB. Interstate 60 is named as inspiration only; Zyrk is not affiliated with the film or its rights holders.</p>
+        <p>© 2026 Zyrk</p>
+    </div>
+</footer>
+</body>
+</html>

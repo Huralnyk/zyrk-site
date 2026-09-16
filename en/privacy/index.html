@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Zyrk</title>
+<meta name="description" content="What the Zyrk app collects, why, and how to turn it off.">
+<link rel="canonical" href="https://zyrk.dev/en/privacy/">
+<link rel="alternate" hreflang="uk" href="https://zyrk.dev/privacy/">
+<link rel="alternate" hreflang="en" href="https://zyrk.dev/en/privacy/">
+<link rel="icon" href="/assets/icon.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta name="theme-color" content="#0b0d12">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<div class="wrap">
+    <header class="top">
+        <a class="wordmark" href="/en/"><img src="/assets/icon.png" alt="" width="30" height="30">Zyrk</a>
+        <nav class="langs">
+            <a href="/privacy/">Укр</a>
+            <a href="/en/privacy/" aria-current="page">Eng</a>
+        </nav>
+    </header>
+
+    <main class="doc">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p class="updated">Zyrk for iPhone. Last updated 16 September 2026.</p>
+        </header>
+
+        <div class="tldr">
+            <ul>
+                <li>No accounts, no ads, no selling of data. The app is free.</li>
+                <li>Your suggestion history, ratings and seen marks stay on your device.</li>
+                <li>Anonymous usage statistics and crash reports go to Firebase (Google) — only if you agreed to it. You can turn it off at any time: <strong>History → ⋯ → Share Usage Data</strong>.</li>
+                <li>To show titles, overviews and where to watch a film, the app talks to TMDB.</li>
+            </ul>
+        </div>
+
+        <section>
+            <h2>Who is responsible</h2>
+            <p>Zyrk is an independent app made by Oleksii Huralnyk (Ukraine). In GDPR terms I am the data controller for what is described below.</p>
+            <p>Privacy questions: <a href="mailto:hello@zyrk.dev">hello@zyrk.dev</a>.</p>
+        </section>
+
+        <section>
+            <h2>What stays on your device only</h2>
+            <p>Everything that makes the app useful is stored locally and never sent anywhere:</p>
+            <ul>
+                <li>the films the ball has already shown, and when;</li>
+                <li>your Good / Nope ratings and seen marks;</li>
+                <li>the country you picked for streaming availability;</li>
+                <li>your choice about usage statistics;</li>
+                <li>a cache of titles, overviews and production countries fetched from TMDB.</li>
+            </ul>
+            <p>This lives in the app's own storage on your iPhone. It disappears when you delete the app, and the “Start Over” button erases the history, ratings and marks. If you back up your device, it may end up in that backup — that is Apple's backup, and I have no access to it.</p>
+        </section>
+
+        <section>
+            <h2>Usage statistics</h2>
+            <p>The app uses Google Analytics for Firebase to understand whether the core idea works: how often the ball hands out a film, how many of those get marked as good, whether people find where to watch them. Collection only starts after you agree to it on first launch.</p>
+            <p>These events are sent: a film was shown, the list ran out, a film was rated, a film was marked seen, the details screen was opened, the history was filtered, the history was reset, streaming options finished loading, a provider was tapped, a JustWatch search was opened, IMDb was opened, the country was changed, and a screen was viewed.</p>
+            <p>Each event carries: the film's rank in the list, its title, year, genre and IMDb rating, how the draw started (shake or tap), how long the shake lasted, how many films have been shown so far, the selected country, the streaming service name and offer type, and the screen name. Two user properties are stored as well: a rough bucket for how many films you have been shown (for example “6-20”) and your selected country.</p>
+            <p>Firebase adds technical details to every event: a random app-installation identifier, device model, iOS and app version, language, an approximate region derived from the IP address, and the time of the event.</p>
+            <p>What is <strong>not</strong> there: your name, email, precise location, contacts, or advertising identifier (IDFA). The app shows no ads, does not track you across other apps or websites, never asks for tracking permission, and has ad personalisation switched off in its configuration. The installation identifier is reset when you delete the app.</p>
+        </section>
+
+        <section>
+            <h2>Crash reports</h2>
+            <p>If the app crashes, Firebase Crashlytics sends a report: where in the code it happened, the device model, iOS and app version, memory state and the time. It exists so the bug can be fixed. It contains none of your viewing history. The same “Share Usage Data” switch turns these reports on and off.</p>
+        </section>
+
+        <section>
+            <h2>Requests to TMDB</h2>
+            <p>Film data — localised titles and overviews, production countries, and the list of services carrying a film — comes from <a href="https://www.themoviedb.org/" rel="noopener">TMDB</a>. When you open a film, the app asks TMDB about that film, passing the language and the selected country. TMDB, like any website, sees the IP address of the request. The app sends no identifiers of yours, and TMDB has no way of knowing whose screen the film is on. Responses are cached on the device for no longer than six months, as TMDB's terms require. TMDB's own <a href="https://www.themoviedb.org/privacy-policy" rel="noopener">privacy policy</a> applies to them.</p>
+            <p>This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+        </section>
+
+        <section>
+            <h2>Links out</h2>
+            <p>Streaming provider buttons, the JustWatch search and IMDb links open in your browser. From there, those sites' privacy policies apply — I have no control over them.</p>
+        </section>
+
+        <section>
+            <h2>Legal basis, retention and transfers</h2>
+            <p>The legal basis for statistics and crash reports is your consent (Art. 6(1)(a) GDPR). You can withdraw it at any time with the “Share Usage Data” switch; sending stops immediately.</p>
+            <p>Events are kept in Google Analytics according to the project's retention setting — by default two months for event-level data, while aggregated reports live longer. Crashlytics keeps crash reports for up to 90 days.</p>
+            <p>Google processes this data on its servers, including in the United States, under the European Commission's standard contractual clauses. See <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase's privacy documentation</a> for details.</p>
+        </section>
+
+        <section>
+            <h2>Your rights</h2>
+            <p>You have the right to access your data, correct or delete it, restrict or object to its processing, and to data portability, as well as the right to lodge a complaint with a data protection authority.</p>
+            <p>Note that the statistics are anonymous and tied only to a random installation identifier, so I cannot pick you out of them. The fastest way to stop and remove everything is to turn the switch off and delete the app. If you need more than that, write to <a href="mailto:hello@zyrk.dev">hello@zyrk.dev</a> and I will do whatever is technically possible.</p>
+        </section>
+
+        <section>
+            <h2>Children</h2>
+            <p>The app is not directed at children under 13 and does not knowingly collect their data.</p>
+        </section>
+
+        <section>
+            <h2>Changes</h2>
+            <p>If this policy changes, the updated version appears on this page with a new date. Anything substantial will also be explained in the app's release notes.</p>
+        </section>
+    </main>
+</div>
+
+<footer class="foot">
+    <div class="wrap">
+        <nav>
+            <a href="/en/">Home</a>
+            <a href="mailto:hello@zyrk.dev">hello@zyrk.dev</a>
+        </nav>
+        <p>© 2026 Zyrk</p>
+    </div>
+</footer>
+</body>
+</html>
