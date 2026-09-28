@@ -124,6 +124,32 @@ a:hover { text-decoration-color: currentColor; }
     text-transform: uppercase;
 }
 
+.app-store {
+    display: inline-block;
+    /* Apple вимагає вільне поле навколо бейджа не менше чверті його висоти */
+    padding: 1rem;
+    margin: -1rem;
+    border-radius: 0.75rem;
+    transition: opacity 0.2s ease;
+}
+
+.app-store img {
+    display: block;
+    height: 4rem;          /* 64px; мінімум за гайдлайнами Apple — 40px */
+    width: auto;
+}
+
+.app-store:hover { opacity: 0.85; }
+
+.app-store:focus-visible {
+    outline: 2px solid var(--lamp);
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .app-store { transition: none; }
+}
+
 /* ── Features ───────────────────────────────────────── */
 .cards {
     display: grid;
